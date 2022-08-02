@@ -1,0 +1,566 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    margin-top: 1px;
+    height: 66px;
+    width: 100%;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    font-family: gotham, sans-serif;
+    position: fixed;
+    top: 0;
+
+}
+
+.white{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+.white-color{
+    color: white;
+}
+
+.logo{
+    height: 40px;
+    margin-left: 230px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 550px;
+    margin-left: 40px;
+}
+
+.search-box:focus{
+    outline: white;
+}
+
+.searchbox{
+    width: 340px;
+    height: 45px;
+    padding-left: 7px;
+    margin-left: 58px;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 17px;
+   
+}
+
+.glass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 47px;
+    background-color: white;
+    position: relative;
+    right: 5px;
+    border: solid 3;
+    border-color: white;
+    
+}
+
+.glass:hover{
+    background-color: rgba(31, 24, 24, 0.818);;
+    color: white;
+    cursor: pointer;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65px;
+    width: 60px;
+    margin-left: 739px;
+    font-size: small;
+    padding-left: 10px;
+}
+
+.support:hover{
+    cursor: pointer;
+    background-color: rgba(31, 24, 24, 0.818);
+}
+
+.support-icon{
+   
+    margin-left: 9px;
+    height: 25px;
+    width: 25px;
+}
+
+
+
+.menu{
+    font-family: gotham, sans-serif;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.menuitems{
+    margin-bottom: 5px;
+    margin-right: 17px;
+    font-size: 14px;
+    margin-left: 3px;
+    position: relative;
+    left: 3px;
+}
+
+.menuitems:hover{
+    cursor: pointer;
+}
+
+.hoverblack:hover{
+    height: 100%;
+   
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.subone{
+    
+    background-image: url('Images/pic1\ \(2\).jpeg');
+    background-size: cover;
+    height: 798px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    font-family: roboto-regular, sans-serif;
+    margin-right: 785px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 50px;
+}
+
+.dbutton{
+    margin-right: 1274px;
+    width: 177px;
+    height: 50px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.dbutton:hover{
+    cursor: pointer;
+}
+
+.imageslide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.228);
+    position: relative;
+    top: 300px;;
+}
+
+.circle{
+    width:10px;
+    height:10px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    cursor: pointer;
+    border-width: 2px;
+}
+
+.whitecircle{
+    background-color: rgb(255, 255, 255);
+}
+
+.subtwo{
+    display: flex;
+    width: 100%;
+    height: 602px;
+    margin-top: 44px;
+}
+
+.subtwoimg{
+    width: 726px;
+    height: 574px;
+    margin-left: 229px;
+}
+
+.headtext{
+    font-size: 2.2rem;
+}
+
+.subtwodbutton{
+    width: 177px;
+    height: 50px;
+    font-size: 16px;
+    background-color:#3b3c43;
+    color: white;
+    margin-left: 180px;
+    margin-top: 25px;
+
+}
+
+.subtwodbutton:hover{
+    cursor: pointer;
+}
+
+.headtext{
+    font-size: 2.5rem;
+    margin-left: 180px;
+    margin-top: 171px;
+}
+
+.destexttwo{
+    margin-left: 180px;
+}
+
+.subthree{
+    display: flex;
+    width: 100%;
+    height: 602px;
+    
+}
+
+.headtextthree{
+    font-size: 2.5rem;
+    margin-left: 415px;
+    margin-top: 159px;
+}
+
+.subthreedbutton{
+
+    width: 177px;
+    height: 50px;
+    font-size: 16px;
+    background-color:#3b3c43;
+    color: white;
+    margin-top: 25px;
+    margin-left: 415px;
+    
+}
+
+.subthreedbutton:hover{
+    cursor: pointer;
+}
+
+.subthreeimg{
+    
+    margin-left: 232px;
+    margin-top: -11px;
+}
+
+.destextthree{
+    margin-left: 415px;
+}
+
+.subfour{
+    display: flex;
+    width: 100%;
+    height: 602px;
+    margin-top: 20px;
+}
+
+.subfourimg{
+    width: 726px;
+    height: 574px;
+    margin-left: 229px;
+}
+
+
+.subfourdbutton{
+    width: 177px;
+    height: 50px;
+    font-size: 16px;
+    background-color:#3b3c43;
+    color: white;
+    margin-left: 180px;
+    margin-top: 25px;
+
+}
+.subfourdbutton:hover{
+    cursor: pointer;
+}
+
+.headtextfour{
+    font-size: 2.5rem;
+    margin-left: 180px;
+    margin-top: 171px;
+}
+
+.destextfour{
+    margin-left: 180px;
+}
+
+.subfive{
+    height: 500px;
+    width: 100%;
+    background-image: url('Images/subfive.jpeg');
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.black{
+    display: flex;
+    align-items: center;
+    background-color: rgba(28, 22, 22, 0.632);
+    width: 100%;
+    height: 100%;
+}
+
+.headtextfive{
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 217px;
+    font-size: 50px;
+}
+
+.destextfive{
+    color: white;
+    margin-left: 217px;
+    font-size: 20px;
+}
+
+.subfivedbutton{
+    width: 177px;
+    height: 50px;
+    font-size: 16px;
+    background-color:white;
+    color: black;
+    margin-left: 217px;
+    margin-top: 25px;
+
+}
+
+.subfivedbutton:hover{
+    cursor: pointer;
+}
+
+.subsix{
+    height: 500px;
+    width: 100%;
+    background-image: url('Images/subsix.jpeg');
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.subseven{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.headingseven{
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+.toback{
+    margin-top: 33px;
+}
+
+.desseven{
+    margin-top: 15px;
+}
+
+.toback{
+    position: relative;
+    top: 35px;
+}
+
+.toparrow{
+    position: relative;
+    top: 21px;
+    margin-left: 95px;
+}
+
+.subeight{
+    display: flex;
+    height: 170px;
+}
+
+.a{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailbox{
+    margin-left: 237px;
+    margin-top: 25px;
+}
+
+.inputeight{
+    width: 390px;
+    height: 50px;
+    padding-left: 10px;
+    
+}
+
+.inputeight::placeholder{
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.signupeight{
+    height: 54px;
+    width: 120px;
+    position: relative;
+    right: 42px;
+    border: none;
+    background-color: #232428f3;
+    color: white;
+}
+
+.signupeight:hover{
+    cursor: pointer;
+}
+
+.deseight{
+    
+    color: black;
+    font-size: 12.2px;
+    margin-left: 240px;
+    margin-top: 5px;
+}
+
+.caution-sign{
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 2px;
+    position: relative;
+    top: 2px;
+}
+
+.smlogo{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 588px;
+    top: 25px;
+    margin-right: 8px;
+}
+
+.smlogo:hover{
+    cursor: pointer;
+}
+
+.subnine{
+    display: flex;
+    height: 340px;
+    width: 100%;
+    
+}
+
+.secone ,.sectwo ,.secthree{
+    margin-left: 243px;
+    margin-top: 40px;
+}
+
+.subitems{
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.subitems:hover{
+    cursor: pointer;
+}
+
+.bodyend{
+    border: none;
+    height: 7px;
+    background-color: #cbd7d79e;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 70px;
+}
+
+.footerlogo{
+    width: 60px;
+    margin-left: 266px;
+}
+
+.footerlogo:hover{
+    cursor: pointer;
+}
+
+.liscence{
+    font-size: 12px;
+    margin-left: 73px;
+}
+
+.country{
+    display: flex;
+    margin-left: 865px;
+}
+
+.countryflag{
+    width: 20px;
+    height: 20px;
+}
+
+.countryflag:hover{
+    cursor: pointer;
+}
+
+.countryname{
+    font-size: 12px;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+
+.countryname:hover{
+    cursor: pointer;
+}
+
+.downangle{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.downangle:hover{
+    cursor: pointer;
+}
+
